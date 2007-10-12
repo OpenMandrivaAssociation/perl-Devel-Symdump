@@ -1,6 +1,6 @@
 %define module		Devel-Symdump
 %define name		perl-%{module}
-%define version 	2.07.00
+%define version 	2.08
 %define revision	2.07
 %define release		%mkrel 1
 
