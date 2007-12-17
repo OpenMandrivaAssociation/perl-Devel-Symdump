@@ -16,7 +16,6 @@ Source:		http://www.cpan.org/modules/by-module/Devel/%{module}-%{revision}.tar.b
 BuildRequires:	perl-devel
 %endif
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This little package serves to access the symbol table of perl.
