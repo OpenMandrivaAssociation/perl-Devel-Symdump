@@ -10,7 +10,7 @@ Summary:	Dump symbol names or the symbol table
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
-Source:		http://www.cpan.org/modules/by-module/Devel/%{module}-%{revision}.tar.gz
+Source:     http://www.cpan.org/modules/by-module/Devel/%{module}-%{version}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
@@ -21,7 +21,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 This little package serves to access the symbol table of perl.
 
 %prep
-%setup -q -n %{module}-%{revision}
+%setup -q -n %{module}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
