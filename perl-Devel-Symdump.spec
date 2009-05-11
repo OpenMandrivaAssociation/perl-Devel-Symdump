@@ -1,8 +1,7 @@
 %define module		Devel-Symdump
 %define name		perl-%{module}
 %define version 	2.08
-%define revision	2.07
-%define release		%mkrel 2
+%define release		%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -11,7 +10,7 @@ Summary:	Dump symbol names or the symbol table
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
-Source:		http://www.cpan.org/modules/by-module/Devel/%{module}-%{revision}.tar.bz2
+Source:		http://www.cpan.org/modules/by-module/Devel/%{module}-%{revision}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
