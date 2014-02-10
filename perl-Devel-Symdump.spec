@@ -29,7 +29,7 @@ make test
 %makeinstall_std
 
 %files
-%doc ChangeLog README
+%doc  README
 %{perl_vendorlib}/Devel
 %{_mandir}/man3/*
 
