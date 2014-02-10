@@ -1,14 +1,14 @@
 %define modname	Devel-Symdump
-%define modver	2.08
+%define modver 2.11
 
 Summary:	Dump symbol names or the symbol table
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Devel/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-Symdump-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
@@ -32,4 +32,5 @@ make test
 %doc ChangeLog README
 %{perl_vendorlib}/Devel
 %{_mandir}/man3/*
+
 
