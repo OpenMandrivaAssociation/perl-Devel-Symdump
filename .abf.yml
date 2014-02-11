@@ -1,2 +1,4 @@
+removed_sources:
+  Devel-Symdump-2.08.tar.gz: 0530224fd3d082a4a6b4f5b6dea333423a29c66d
 sources:
-  "Devel-Symdump-2.08.tar.gz": 0530224fd3d082a4a6b4f5b6dea333423a29c66d
+  Devel-Symdump-2.11.tar.gz: eacec52f8ac16f6f077ea719a381a8c695b1386f
