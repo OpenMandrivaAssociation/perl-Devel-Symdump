@@ -1,10 +1,13 @@
 %define modname	Devel-Symdump
-%define modver 2.12
+%define modver 2.18
+
+# Avoid nasty build dependency loop
+%define dont_gprintify 1
 
 Summary:	Dump symbol names or the symbol table
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
@@ -26,7 +29,8 @@ This little package serves to access the symbol table of perl.
 make test
 
 %install
-%makeinstall_std
+%make_install
+find %{buildroot} -name .packlist -o -name perllocal.pod |xargs rm -f
 
 %files
 %doc  README
