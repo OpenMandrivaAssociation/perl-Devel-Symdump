@@ -10,7 +10,7 @@ Version:	%perl_convert_version %{modver}
 Release:	8
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Devel::Symdump
+Url:		https://metacpan.org/pod/Devel::Symdump
 Source0:	http://www.cpan.org/modules/by-module/Devel/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
